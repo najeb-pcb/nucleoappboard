@@ -1,11 +1,10 @@
 # STM32 Nucleo Application Board
 
 <p align="center">
-  <img src="images/STM32AppBoard.png" alt="STM32 Nucleo Application Board 3D View" width="700">
+  <img src="images/pcb_3d_view.png" alt="STM32 Nucleo Application Board 3D View" width="700">
 </p>
 
-A custom STM32 **Nucleo-compatible application board** designed for education, rapid prototyping, and embedded systems experimentation.  
-This board extends the STM32 Nucleo platform with commonly used peripherals and interfaces suitable for laboratory exercises, student projects, and applied research work.
+A custom STM32 **Nucleo-compatible application board** designed for education, rapid prototyping, and embedded systems experimentation.
 
 ---
 
@@ -37,15 +36,16 @@ The design is created using **KiCad** and follows good hardware documentation an
 
 ## 📁 Repository Structure
 
+```
 .
-├── STM32AppBoard.kicad_sch # Schematic design
-├── STM32AppBoard.kicad_pcb # PCB layout
-├── STM32AppBoard.kicad_pro # KiCad project file
+├── STM32AppBoard.kicad_sch   # Schematic design
+├── STM32AppBoard.kicad_pcb   # PCB layout
+├── STM32AppBoard.kicad_pro   # KiCad project file
 ├── .gitignore
 └── README.md
+```
 
-
-> KiCad auto-backups, cache files, and local configuration files are intentionally excluded from version control.
+KiCad auto-backups, cache files, and local configuration files are intentionally excluded from version control.
 
 ---
 
@@ -68,10 +68,9 @@ The design is created using **KiCad** and follows good hardware documentation an
 
 ## 🔄 Versioning Strategy
 
-- PCB and schematic revisions will follow tagged releases  
-  (e.g. `v1.0-pcb`, `v1.1-hardware`)
+- PCB and schematic revisions will follow tagged releases (e.g. `v1.0-pcb`)
 - Only fabrication-relevant files will be included in releases
-- Backup ZIP files are excluded to keep the repository clean and maintainable
+- Backup ZIP files are excluded to keep the repository clean
 
 ---
 

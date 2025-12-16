@@ -1,5 +1,9 @@
 # STM32 Nucleo Application Board
 
+<p align="center">
+  <img src="images/STM32AppBoard.png" alt="STM32 Nucleo Application Board 3D View" width="700">
+</p>
+
 A custom STM32 **Nucleo-compatible application board** designed for education, rapid prototyping, and embedded systems experimentation.  
 This board extends the STM32 Nucleo platform with commonly used peripherals and interfaces suitable for laboratory exercises, student projects, and applied research work.
 

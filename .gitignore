@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# KiCad backup files
+STM32AppBoard-backups/
+*.zip
+
+# KiCad cache / local config
+fp-info-cache
+fp-lib-table
+*.kicad_prl
+
+# Footprint cache (ignore unless intentionally versioned)
+*.pretty/
+*.kicad_mod
+
